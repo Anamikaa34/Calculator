@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colorful Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+      <h1 style="align-items: center;font-size: xx-large;color: #e7ecf5;">Caclulate Anything..</h1>
+        <input type="text" id="display" disabled>
+        <div class="keys">
+            <button class="orange" onclick="clearDisplay()">Clear</button>
+            <button class="light-blue" onclick="appendNumber(7)">7</button>
+            <button class="light-blue" onclick="appendNumber(8)">8</button>
+            <button class="light-blue" onclick="appendNumber(9)">9</button>
+            <button class="orange" onclick="appendOperator('+')">+</button>
+            <button class="light-blue" onclick="appendNumber(4)">4</button>
+            <button class="light-blue" onclick="appendNumber(5)">5</button>
+            <button class="light-blue" onclick="appendNumber(6)">6</button>
+            <button class="orange" onclick="appendOperator('-')">-</button>
+            <button class="light-blue" onclick="appendNumber(1)">1</button>
+            <button class="light-blue" onclick="appendNumber(2)">2</button>
+            <button class="light-blue" onclick="appendNumber(3)">3</button>
+            <button class="orange" onclick="appendOperator('*')">*</button>
+            <button class="light-blue" onclick="appendNumber(0)">0</button>
+            <button class="light-blue" onclick="appendOperator('/')">/</button>
+            <button class="green" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
